@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear-fix
+{
+    clear:both;
+}
+#container{
+    width: 1140px;
+    min-height: 800px;
+    margin: 0px auto;
+    background-color: rgb(116, 218, 218);
+    border: solid burlywood;
+ 
+}
+.header{
+    margin: 30px auto;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+}
+.banner{
+    width: 100%;
+    height: 150px;
+    float: left;
+    text-align: center;
+    margin: 30px auto;
+}
+.sidebar{
+    width: 50px;
+    height: 125px;
+    background-color: rgb(226, 171, 103);
+    right: 0;
+    position: fixed;
+    z-index: 9999;
+}
+.icons{
+    font-size: 40px;
+}
+.image1{
+    width: 100%;
+}
+.imag
+{
+    width: 33.33%;
+    float: left;
+    text-align: left;
+    min-height: 50px;
+}
+.imag img{
+
+    margin: auto 70px auto 40px;
+    border-radius: 50%;
+    border: 2px solid aliceblue;
+
+}
+/*.image1 .img1{
+    text-align: right;
+    float: right;
+}
+.img1 img{
+    margin: auto 70px auto 40px;
+    border-radius: 50%;
+    border: 2px solid aliceblue;
+}
+
+.image1 .img2{
+    text-align: right;
+    float: right;
+}
+.img2 img{
+    margin: auto 70px auto 60px;
+   border-radius: 50%;
+    border: 2px solid aliceblue;
+}
+.image1 .img3{
+    text-align: right;
+    float: right;
+}
+.img3 img{
+    margin: auto 60px auto 30px;
+    border-radius: 50%;
+    border: 2px solid aliceblue;
+}
+
+.img1 p{
+    margin: auto 30px auto 10px;
+    width: 33%;
+    text-align: left;
+    float: left;
+}
+.img2 p{
+    margin: auto 30px auto 10px;
+    width: 33%;
+    text-align: justify;
+    float: left;
+}
+.img3 p{
+    margin: auto 30px auto 10px;
+    width: 33%;
+    text-align: justify;
+    float: left;
+}*/
+.image2{
+    width: 100%;
+    margin: 35px auto 30px auto;
+}
+
+   
+
+.image2 img{
+    width: 470px;
+    margin: auto 30px;
+    float:left;
+    text-align:left;
+}
+
+    
+
+.footer {
+  width: 100%;
+    height: 50px;
+    background-color:white;
+    border: 1px solid black;
+    
+    margin-top: 30px;
+}
+.sidebar a {
+    
+    text-decoration: none;
+}
+.sidebar .facebook a{
+    color: #4267b2;
+}
+.sidebar .twitter a{
+    color: #1da1f2;
+}
+.sidebar .pin a{
+color: #e60023;
+}
